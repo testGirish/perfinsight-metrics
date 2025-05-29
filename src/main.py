@@ -11,7 +11,7 @@ def calculate_metrics(data):
         'average': average,
         'count': len(data)
     }
-
+#Below is the analyze performance method.
 def analyze_performance(metrics):
     """Analyze performance metrics."""
     if not metrics:
